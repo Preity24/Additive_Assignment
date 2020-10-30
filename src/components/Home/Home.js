@@ -41,11 +41,6 @@ const Home = (props) => {
   const handleKeyPress = () => {
     props.history.push(`/overview/${employeeName}`);	
   }
-
-  const navigateToOverview = () => {
-    props.history.push(`/overview/${employeeName}`);	
-  }
-
   const handleEmployeeList = (e, newValue) => {
     setEmployeeName(newValue);
   }
